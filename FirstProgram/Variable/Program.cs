@@ -34,7 +34,7 @@ namespace Variable
         double weight = 20.0; // 8byte 실수형
         bool isResting = true; // 1byte 논리형
         // true : 0 이 아닌 값, false : 0
-        char gender = "W"; // 2byte 문자형 (ASCII 아스키코드표를 따름)
+        char gender = 'W'; // 2byte 문자형 (ASCII 아스키코드표를 따름)
         string name = "아무개"; // 문자열형, 문자갯수 * 2byte + 1byte (null)
         // c 계통언어에서는 모두 문자열의 끝을 인식하기위해 null byte 를 사용함.
     }
