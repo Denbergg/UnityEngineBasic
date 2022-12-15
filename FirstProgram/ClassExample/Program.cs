@@ -31,16 +31,5 @@ namespace ClassExample
             Console.WriteLine(age);
         }
     }
-
-    class Human2
-    {
-        public int age;
-        public float height;
-        public char gender;
-        public void Sayage()
-        {
-            Console.WriteLine(age);
-        }
-    }
 }
 
