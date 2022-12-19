@@ -22,7 +22,7 @@ namespace Array
             arr_int[0] = 1;
             arr_int[1] = 2;
             arr_int[2] = 3;
-            int[] arr_int2 = {1, 2, 3};
+            int[] arr_int2 = { 1, 2, 3 };
             float[] arr_float = { 1.0f, 2.0f, 3.0f };
 
             int[][] arr_arr_int = new int[3][];
@@ -35,7 +35,7 @@ namespace Array
             string name = "김아무개";
             char first = name[0];
             Console.WriteLine(name[0]);
-            char[] arr_char = { '김', '아', '무', '개', '＼0' };
+            char[] arr_char = { '김', '아', '무', '개', '\0' };
         }
     }
 }
