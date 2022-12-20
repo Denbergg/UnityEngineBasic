@@ -14,6 +14,7 @@ namespace Array2D
             // 객체 자기자신 참조 키워드
             public void SetPos(int x, int y)
             {
+                map[_x, _y] = mapOrigin[x, y]; // 이전 위치 롤백
                 this._x = x;
                 this._y = y;
                 Program.map[y, x] = 5;
@@ -80,12 +81,30 @@ namespace Array2D
             { 1, 1, 0, 0, 2 },
         };
 
-        static void Main(string[] args)
+        static int[,] mapOrigin = new int[5, 5]
+        {
+            { 0, 1, 1, 1, 1 },
+            { 0, 1, 1, 1, 1 },
+            { 0, 0, 0, 1, 1 },
+            { 1, 1, 0, 1, 1 },
+            { 1, 1, 0, 0, 2 },
+        };
+
+    static void Main(string[] args)
         {
             Player player = new Player();
             player.SetPos(0, 0);
 
-            DisplayMap();
+            string userInput = string.Empty;
+            while (map[4,4] != 5)
+            {
+                userInput = Console.ReadLine();
+                if (userInput == "L") player.MoveLeft();
+                else if (userInput == "R") player.MoveRight();
+                else if (userInput == "U") player.MoveUp();
+                else if (userInput == "D") player.MoveDown();
+
+            }
         }
 
         static void DisplayMap()

@@ -21,7 +21,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Array", "Array\Array.csproj
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LoopStatements", "LoopStatements\LoopStatements.csproj", "{C0D97824-4525-4D0B-AF2D-07F7AC0D6861}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Array2D", "Array2D\Array2D.csproj", "{446F024A-7788-4DCE-9E2D-D3FF506A250B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Array2D", "Array2D\Array2D.csproj", "{446F024A-7788-4DCE-9E2D-D3FF506A250B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EnumAndSwitchCase", "EnumAndSwitchCase\EnumAndSwitchCase.csproj", "{23593243-86A6-484B-A6E5-996033F956B0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Example1_HorseRacing", "Example1_HorseRacing\Example1_HorseRacing.csproj", "{FB62CBE3-66A1-4155-874B-00B4B01BD56F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -69,6 +73,14 @@ Global
 		{446F024A-7788-4DCE-9E2D-D3FF506A250B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{446F024A-7788-4DCE-9E2D-D3FF506A250B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{446F024A-7788-4DCE-9E2D-D3FF506A250B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{23593243-86A6-484B-A6E5-996033F956B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23593243-86A6-484B-A6E5-996033F956B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23593243-86A6-484B-A6E5-996033F956B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23593243-86A6-484B-A6E5-996033F956B0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FB62CBE3-66A1-4155-874B-00B4B01BD56F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB62CBE3-66A1-4155-874B-00B4B01BD56F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB62CBE3-66A1-4155-874B-00B4B01BD56F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB62CBE3-66A1-4155-874B-00B4B01BD56F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
