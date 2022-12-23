@@ -18,7 +18,8 @@ namespace Inheritance
             }
         }
 
-        private string[] _seminarsTaken;
+        private string[] _seminarsTaken = new string[5];
+        private int _seminarsTakenCount;
         public bool TakenSeminar
         {
             get

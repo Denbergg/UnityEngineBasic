@@ -29,7 +29,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Example1_HorseRacing", "Exa
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Structure", "Structure\Structure.csproj", "{6D40F0A7-10F8-47D2-B5F5-BB423DE97A98}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Inheritance", "Inheritance\Inheritance.csproj", "{0A911A34-7D22-4907-A26D-65FCC6B5F5AA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Inheritance", "Inheritance\Inheritance.csproj", "{0A911A34-7D22-4907-A26D-65FCC6B5F5AA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DynamicArray", "DynamicArray\DynamicArray.csproj", "{CF88D3C9-9FDD-47F4-BD4C-DFC85537CA3A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -93,6 +95,10 @@ Global
 		{0A911A34-7D22-4907-A26D-65FCC6B5F5AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0A911A34-7D22-4907-A26D-65FCC6B5F5AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0A911A34-7D22-4907-A26D-65FCC6B5F5AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF88D3C9-9FDD-47F4-BD4C-DFC85537CA3A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF88D3C9-9FDD-47F4-BD4C-DFC85537CA3A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF88D3C9-9FDD-47F4-BD4C-DFC85537CA3A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF88D3C9-9FDD-47F4-BD4C-DFC85537CA3A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
