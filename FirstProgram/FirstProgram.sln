@@ -31,7 +31,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Structure", "Structure\Stru
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Inheritance", "Inheritance\Inheritance.csproj", "{0A911A34-7D22-4907-A26D-65FCC6B5F5AA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DynamicArray", "DynamicArray\DynamicArray.csproj", "{CF88D3C9-9FDD-47F4-BD4C-DFC85537CA3A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DynamicArray", "DynamicArray\DynamicArray.csproj", "{CF88D3C9-9FDD-47F4-BD4C-DFC85537CA3A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LinkedList", "LinkedList\LinkedList.csproj", "{E22D3DBB-BE32-4390-88E7-D560994D635F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hashtable", "Hashtable\Hashtable.csproj", "{6F622522-0373-407E-98C6-5414DEC5BE27}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -99,6 +103,14 @@ Global
 		{CF88D3C9-9FDD-47F4-BD4C-DFC85537CA3A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CF88D3C9-9FDD-47F4-BD4C-DFC85537CA3A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CF88D3C9-9FDD-47F4-BD4C-DFC85537CA3A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E22D3DBB-BE32-4390-88E7-D560994D635F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E22D3DBB-BE32-4390-88E7-D560994D635F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E22D3DBB-BE32-4390-88E7-D560994D635F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E22D3DBB-BE32-4390-88E7-D560994D635F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F622522-0373-407E-98C6-5414DEC5BE27}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F622522-0373-407E-98C6-5414DEC5BE27}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F622522-0373-407E-98C6-5414DEC5BE27}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F622522-0373-407E-98C6-5414DEC5BE27}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
