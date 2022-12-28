@@ -11,7 +11,7 @@ namespace Hashtable
         private const int DEFAULT_SIZE = 100;
         private TValue[] _data = new TValue[DEFAULT_SIZE];
 
-        public object this[object key]
+        public TValue this[TKey key]
         {
             get
             {
@@ -28,7 +28,7 @@ namespace Hashtable
             _data[Hash(key)] = value;
         }
 
-        public bool ContainsKey(Tkey key)
+        public bool ContainsKey(TKey key)
         {
             return Comparer<TValue>.Default.Compare(_data[Hash(key)], default(TValue)) == 0;
         }
@@ -64,7 +64,7 @@ namespace Hashtable
             {
                 success= false;
                 Console.WriteLine($"Invalid key {e.Message}");
-                throw new Exception();
+                throw new Exception("adsfasdf");
                 throw e;
             }
             finally
