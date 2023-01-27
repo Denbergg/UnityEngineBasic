@@ -354,6 +354,8 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
 "Assets/02 Scripts/GoalLine.cs"
 "Assets/02 Scripts/Horse.cs"
+"Assets/02 Scripts/RaceManager.cs"
+"Assets/02 Scripts/TargetFollowCamera.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01_UGUI.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark02.cs"
