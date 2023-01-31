@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 7688020205172452072}
   - component: {fileID: 7688020205172452073}
   - component: {fileID: 7688020205172452070}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Bullet
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -61,6 +61,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _speed: 10
+  _enemyMask:
+    serializedVersion: 2
+    m_Bits: 1048576
+  _damage: 20
 --- !u!1 &7688020206049804764
 GameObject:
   m_ObjectHideFlags: 0
@@ -72,7 +76,7 @@ GameObject:
   - component: {fileID: 7688020206049804767}
   - component: {fileID: 7688020206049804705}
   - component: {fileID: 7688020206049804766}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Renderer
   m_TagString: Untagged
   m_Icon: {fileID: 0}
