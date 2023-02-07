@@ -3,8 +3,9 @@ using TMPro;
 
 public class TileStar : Tile
 {
-    public int starValue;
+    public int starValue = 3;
     [SerializeField] private TMP_Text _valueText;
+
     public override void OnHere()
     {
         base.OnHere();
