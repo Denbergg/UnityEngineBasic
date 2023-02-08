@@ -43,7 +43,7 @@ public class DiceAnimationUI : MonoBehaviour
 
     private IEnumerator E_Play(int diceValue, Action onAnimationFinished)
     {
-        float timeMark = 0.0f;
+        float timeMark = Time.time;
         float timer = 0.0f;
         while (Time.time - timeMark < _duration)
         {
@@ -62,6 +62,7 @@ public class DiceAnimationUI : MonoBehaviour
         _image.sprite = _sprites[diceValue - 1];
         onAnimationFinished?.Invoke();
 
+        yield return new WaitForSeconds(0.5f);
         isBusy = false;
     }
 }
